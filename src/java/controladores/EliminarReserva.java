@@ -52,7 +52,7 @@ public class EliminarReserva extends HttpServlet {
             String password = "tonys2021";
             try{
                 gestion.eliminarReserva(res);
-                gestion.enviarEmail(from, to, subject, text, password);
+                //gestion.enviarEmail(from, to, subject, text, password);
             }catch(Exception e){
                 String error= "Error al eliminar la reserva";
                 response.sendRedirect("administrar.jsp?error="+error);

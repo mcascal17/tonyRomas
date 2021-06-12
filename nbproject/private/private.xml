@@ -3,13 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/web/filtraReservasEmp.jsp</file>
+            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/src/java/modelo/dao/EmpleadoJpaController.java</file>
+            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/web/filtraReservas.jsp</file>
+            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/web/editarPerfil.jsp</file>
+            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/src/java/modelo/dao/RestauranteJpaController.java</file>
+            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/src/java/modelo/dao/ReservaJpaController.java</file>
+            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/src/java/controladores/EliminarReservaEmp.java</file>
+            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/web/reservasEmpleado.jsp</file>
             <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/web/admin/administrar.jsp</file>
-            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/web/reserva.jsp</file>
-            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/web/index.jsp</file>
+            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/src/java/modelo/dao/ClienteJpaController.java</file>
             <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/src/java/controladores/EliminarReserva.java</file>
-            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/src/java/controladores/AltaUsuario.java</file>
-            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/src/java/controladores/CerrarSesion.java</file>
-            <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/src/java/controladores/AltaRestaurante.java</file>
             <file>file:/C:/Users/macar/OneDrive/Escritorio/servidor/tonyRomas2/src/conf/persistence.xml</file>
         </group>
     </open-files>

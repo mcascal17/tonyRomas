@@ -165,7 +165,7 @@ public class ReservaJpaController implements Serializable {
         String fechaComoCadena = sdf.format(res.getFecha());
         fechaComoCadena= fechaComoCadena.replace("/", "-");
         List<Reserva> reservas = new ArrayList();
-        String sql= "Select * from reserva where CLIENTE_ID="+res.getCliente().getId()+" and fecha='"+fechaComoCadena+"' and hora='"+res.getHora()+"' and RESTAURANTE_ID="+res.getRestaurante().getId()+" ;";
+        String sql= "Select * from RESERVA where CLIENTE_ID="+res.getCliente().getId()+" and FECHA='"+fechaComoCadena+"' and HORA='"+res.getHora()+"' and RESTAURANTE_ID="+res.getRestaurante().getId()+" ;";
         try{
             reservas=em.createNativeQuery(sql, Reserva.class).getResultList();
         }catch(Exception e){

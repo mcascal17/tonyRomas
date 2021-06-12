@@ -78,6 +78,9 @@
                                     <c:if test="${usuario.encargado}">
                                         <li><a class="dropdown-item" href="admin/administrar.jsp">Administración</a></li>
                                     </c:if>
+                                    <c:if test="${!usuario.encargado}">
+                                        <li><a class="dropdown-item" href="reservasEmpleado.jsp">Reservas</a></li>
+                                    </c:if>
                                 </c:if>
                                 
                                 <li><a class="dropdown-item" href="CerrarSesion"><span class="bi bi-x-circle-fill"> Salir</a></span>

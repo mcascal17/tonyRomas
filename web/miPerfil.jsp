@@ -53,10 +53,13 @@
                                 </c:if>
                             </a>
                             <ul class="dropdown-menu" role="menu" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="miPerfil.jsp"><span class="bi bi-gear-fill">Mi perfil</span></a></li>
+                                
                                 <c:if test="${usuario['class'].simpleName=='Empleado'}">
                                     <c:if test="${usuario.encargado}">
                                         <li><a class="dropdown-item" href="admin/administrar.jsp">Administración</a></li>
+                                    </c:if>
+                                    <c:if test="${!usuario.encargado}">
+                                        <li><a class="dropdown-item" href="reservasEmpleado.jsp">Reservas</a></li>
                                     </c:if>
                                 </c:if>
                                 
