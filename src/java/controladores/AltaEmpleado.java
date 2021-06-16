@@ -34,7 +34,6 @@ public class AltaEmpleado extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.setContentType("text/html;charset=UTF-8");
         String error = null;
         String nombre= request.getParameter("nombre");
         String apellidos= request.getParameter("apellidos");

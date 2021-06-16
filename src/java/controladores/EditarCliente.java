@@ -35,7 +35,6 @@ public class EditarCliente extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.setContentType("text/html;charset=UTF-8");
         String login= request.getParameter("login");
         Gestion gestion= (Gestion) request.getSession().getAttribute("gestion");
         Cliente cli = gestion.buscarClienteLogin(login);

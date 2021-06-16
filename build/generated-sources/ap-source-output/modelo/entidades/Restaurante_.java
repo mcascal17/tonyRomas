@@ -6,7 +6,7 @@ import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 import modelo.entidades.Reserva;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2021-06-12T18:01:02")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2021-06-16T16:25:50")
 @StaticMetamodel(Restaurante.class)
 public class Restaurante_ { 
 

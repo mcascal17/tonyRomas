@@ -4,11 +4,11 @@
     Author     : macar
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page contentType="text/html" pageEncoding="iso-8859-1"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
         <title>Administrar Reservas</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
@@ -37,7 +37,7 @@
          </script>
     </head>
     <body style="background-color: rgb(252, 235, 204);">
-        <!-- MenÃº desplegable -->
+        <!-- Menú desplegable -->
     <header>
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-danger">
             <div class="container-fluid">
@@ -57,7 +57,7 @@
                 <ul class="d-flex navbar-nav me-4">
                     <c:if test="${usuario==null and cliente==null}">
                         <li class="nav-item">
-                            <a class="nav-link fw-bold" href="#" tabindex="-1" data-bs-toggle="modal" data-bs-target="#usuarios" aria-disabled="true">Ãrea de Usuarios</a>
+                            <a class="nav-link fw-bold" href="#" tabindex="-1" data-bs-toggle="modal" data-bs-target="#usuarios" aria-disabled="true">Área de Usuarios</a>
                         </li>
                     </c:if>
                     <c:if test="${usuario!=null or cliente!=null}">
@@ -74,7 +74,7 @@
                                 <li><a class="dropdown-item" href="miPerfil.jsp"><span class="bi bi-gear-fill">Mi perfil</span></a></li>
                                 <c:if test="${usuario['class'].simpleName=='Empleado'}">
                                     <c:if test="${usuario.encargado}">
-                                        <li><a class="dropdown-item" href="admin/administrar.jsp">AdministraciÃ³n</a></li>
+                                        <li><a class="dropdown-item" href="admin/administrar.jsp">Administración</a></li>
                                     </c:if>
                                 </c:if>
                                 
@@ -119,7 +119,7 @@
                                     <td>${res.cliente.nombre} ${res.cliente.apellidos}</td>
                                     <td>${res.restaurante.nombre}</td>
                                     <td>
-                                        <form onsubmit="return confirm('Â¿Quieres eliminar la reserva?');" action="EliminarReservaEmp" method="post">
+                                        <form onsubmit="return confirm('¿Quieres eliminar la reserva?');" action="EliminarReservaEmp" method="post">
                                             <input type="hidden" name="id" value="${res.id}">
                                             <input class="btn btn-danger" type="submit" value="Eliminar">
                                         </form>

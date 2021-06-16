@@ -160,29 +160,29 @@
             <div class="container marketing">
 
                 <!-- Three columns of text below the carousel -->
-                <div class="row text-center">
+               <!-- <div class="row text-center">
                   <div class="col-lg-4">
                     <img class="rounded-circle" src="img/entrantes.jpg" alt="postre">
             
                     <h2>Entrantes</h2>
                     <p>Llegas a un Tony Roma's , ves los entrantes... <strong>¡Y ves que la cosa va enserio!</strong></p>
                     <p><a class="btn btn-danger" href="#" role="button" data-bs-toggle="modal" data-bs-target="#entrantes" aria-disabled="true">Galeria &raquo;</a></p>
-                  </div><!-- /.col-lg-4 -->
+                  </div><!-- /.col-lg-4 
                   <div class="col-lg-4">
                     <img class="rounded-circle" src="img/burger.jpg" alt="postre">
             
                     <h2>Principales</h2>
                     <p>Huelo... <strong>¡A CARNE! </strong>Ven a Tony Roma's y disfruta de una gran variedad de <strong>Costillares y Hamburguesas</strong></p>
                     <p><a class="btn btn-danger" href="#" role="button" data-bs-toggle="modal" data-bs-target="#principales" aria-disabled="true">Galeria &raquo;</a></p>
-                  </div><!-- /.col-lg-4 -->
+                  </div><!-- /.col-lg-4 
                   <div class="col-lg-4">
                     <img class="rounded-circle" src="img/postre.jpg" alt="postre">
             
                     <h2>Postres</h2>
                     <p>Disfruta de nuestros deliciosos postres y da un toque dulce a tú comida.</p>
                     <p><a class="btn btn-danger" href="#" role="button"  data-bs-toggle="modal" data-bs-target="#postres" aria-disabled="true">Galeria &raquo;</a></p>
-                  </div><!-- /.col-lg-4 -->
-                </div><!-- /.row -->
+                  </div><!-- /.col-lg-4
+                </div><!-- /.row --> 
             
             
                 <!-- Introduccion-->

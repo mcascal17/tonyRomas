@@ -179,7 +179,7 @@ public class ReservaJpaController implements Serializable {
         Gestion gestion = new Gestion ();
         Cliente cli = gestion.buscarClienteLogin(login);
         
-        String sql= "Select * from reserva where CLIENTE_ID="+cli.getId()+";";
+        String sql= "Select * from RESERVA where CLIENTE_ID="+cli.getId()+";";
         List<Reserva> reservas = new ArrayList();
         
         try{

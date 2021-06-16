@@ -148,8 +148,8 @@
     <section class="wrap container">
         <div class="container-fluid row text-center" style="background-color: rgba(215, 92, 90, 0.468);">
             <c:forEach var="res" items="${gestion.restaurantes}">
-                <div class="card m-5 p-3 text-center" style="width: 18rem;">
-                    <img src="img/kounde.jpg" class="card-img-top" alt="...">
+                <div class="card m-5 col-12 col-sm-6 col-md-4 col-lg-3 p-3 text-center" style="width: 18rem;">
+                    <img src="img/sevilla.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title fw-bolder">${res.provincia}</h5>
                         <p id="nombre" class="card-text">${res.nombre}</p>

@@ -278,6 +278,7 @@
                             <th scope="col">Hora</th>
                             <th scope="col">Cliente</th>
                             <th scope="col">Restaurante</th>
+                            <th scope="col">Comensales</th>
                             
                           </tr>
                         </thead>
@@ -288,6 +289,7 @@
                                     <td>${res.hora}</td>
                                     <td>${res.cliente.nombre} ${res.cliente.apellidos}</td>
                                     <td>${res.restaurante.nombre}</td>
+                                    <td>${res.comensales}</td>
                                     <td>
                                         <form onsubmit="return confirm('¿Quieres eliminar la reserva?');" action="EliminarReserva" method="post">
                                             <input type="hidden" name="id" value="${res.id}">
